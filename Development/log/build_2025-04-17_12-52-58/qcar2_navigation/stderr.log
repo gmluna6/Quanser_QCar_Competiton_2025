@@ -1,0 +1,2 @@
+/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages/qcar2_navigation/pick_drop_reset.py:31: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  (3.3, 3.8, -1.5708)

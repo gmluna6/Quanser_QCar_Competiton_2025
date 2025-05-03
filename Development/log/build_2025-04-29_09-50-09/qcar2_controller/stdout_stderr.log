@@ -1,0 +1,47 @@
+Built target ament_cmake_python_copy_qcar2_controller
+running egg_info
+writing qcar2_controller.egg-info/PKG-INFO
+writing dependency_links to qcar2_controller.egg-info/dependency_links.txt
+writing top-level names to qcar2_controller.egg-info/top_level.txt
+reading manifest file 'qcar2_controller.egg-info/SOURCES.txt'
+writing manifest file 'qcar2_controller.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_qcar2_controller_egg
+-- Install configuration: ""
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/pythonpath.sh
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/pythonpath.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/PKG-INFO
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/SOURCES.txt
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/dependency_links.txt
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/top_level.txt
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/xbox_command.py
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/redlight_detection.py
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/__init__.py
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/stop_sign_handler.py
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/motor_mux.py
+Listing '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller'...
+Compiling '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/redlight_detection.py'...
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/include/include
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/include/include/qcar2_controller
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/launch
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/config
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/qcar2_controller/xbox_command.py
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/qcar2_controller/motor_mux.py
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/qcar2_controller/stop_sign_handler.py
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/qcar2_controller/redlight_detection.py
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/ament_index/resource_index/package_run_dependencies/qcar2_controller
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/ament_index/resource_index/parent_prefix_path/qcar2_controller
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/path.sh
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/path.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.bash
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.sh
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.zsh
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/ament_index/resource_index/packages/qcar2_controller
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/cmake/qcar2_controllerConfig.cmake
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/cmake/qcar2_controllerConfig-version.cmake
+-- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.xml

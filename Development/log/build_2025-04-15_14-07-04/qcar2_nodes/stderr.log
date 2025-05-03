@@ -1,0 +1,8 @@
+[01m[K/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes/src/qcar2_hardware.cpp:[m[K In member function ‘[01m[Kvoid QCar2::LED_Set()[m[K’:
+[01m[K/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes/src/qcar2_hardware.cpp:333:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  333 |             t_int [01;35m[Kresult[m[K = aaaf5050_mc_k12_write(led_strip, color, 33);
+      |                   [01;35m[K^~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes/src/qcar2_hardware.cpp:[m[K In member function ‘[01m[Kvoid QCar2::motor_command_callback(const MotorCommands&)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes/src/qcar2_hardware.cpp:590:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvalid_name[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  590 |         t_boolean [01;35m[Kvalid_name[m[K = true;
+      |                   [01;35m[K^~~~~~~~~~[m[K

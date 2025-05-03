@@ -1,0 +1,14 @@
+setup.py
+qcar2_navigation/__init__.py
+qcar2_navigation/lane_follower_filter.py
+qcar2_navigation/lane_follower_pid.py
+qcar2_navigation/line_detection.py
+qcar2_navigation/pick_drop_reset.py
+qcar2_navigation/qlabs_world_nav.py
+qcar2_navigation/simple_goal_sender_node.py
+qcar2_navigation/spline_path.py
+qcar2_navigation/waypoint_follower.py
+qcar2_navigation.egg-info/PKG-INFO
+qcar2_navigation.egg-info/SOURCES.txt
+qcar2_navigation.egg-info/dependency_links.txt
+qcar2_navigation.egg-info/top_level.txt

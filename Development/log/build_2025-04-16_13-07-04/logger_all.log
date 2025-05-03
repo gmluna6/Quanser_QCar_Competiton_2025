@@ -1,0 +1,384 @@
+[5.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.178s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70d4c04a0760>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70d4c04a0760>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70d4bfe006d0>)
+[5.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.422s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/isaac_ros-dev'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.459s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.459s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.459s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['ignore', 'ignore_ament_install']
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ignore'
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ignore_ament_install'
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['colcon_pkg']
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'colcon_pkg'
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['colcon_meta']
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'colcon_meta'
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['ros']
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ros'
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['cmake', 'python']
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'cmake'
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'python'
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['python_setup_py']
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'python_setup_py'
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/log) by extension 'ignore'
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/log) ignored
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ignore'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ignore_ament_install'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['colcon_pkg']
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'colcon_pkg'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['colcon_meta']
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'colcon_meta'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['ros']
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ros'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['cmake', 'python']
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'cmake'
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'python'
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['python_setup_py']
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'python_setup_py'
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extensions ['ignore', 'ignore_ament_install']
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extension 'ignore'
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extension 'ignore_ament_install'
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extensions ['colcon_pkg']
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extension 'colcon_pkg'
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extensions ['colcon_meta']
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extension 'colcon_meta'
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extensions ['ros']
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_controller) by extension 'ros'
+[5.472s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/qcar2_controller' with type 'ros.ament_cmake' and name 'qcar2_controller'
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extension 'ignore'
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extension 'ignore_ament_install'
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extensions ['colcon_pkg']
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extension 'colcon_pkg'
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extensions ['colcon_meta']
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extension 'colcon_meta'
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extensions ['ros']
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_interfaces) by extension 'ros'
+[5.473s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/qcar2_interfaces' with type 'ros.ament_cmake' and name 'qcar2_interfaces'
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extension 'ignore'
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extension 'ignore_ament_install'
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extensions ['colcon_pkg']
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extension 'colcon_pkg'
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extensions ['colcon_meta']
+[5.474s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extension 'colcon_meta'
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extensions ['ros']
+[5.475s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_navigation) by extension 'ros'
+[5.476s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/qcar2_navigation' with type 'ros.ament_cmake' and name 'qcar2_navigation'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extensions ['ignore', 'ignore_ament_install']
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extension 'ignore'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extension 'ignore_ament_install'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extensions ['colcon_pkg']
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extension 'colcon_pkg'
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extensions ['colcon_meta']
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extension 'colcon_meta'
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extensions ['ros']
+[5.478s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/qcar2_nodes) by extension 'ros'
+[5.482s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/qcar2_nodes' with type 'ros.ament_cmake' and name 'qcar2_nodes'
+[5.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.650s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /workspaces/isaac_ros-dev/install
+[5.672s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[5.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_args' from command line to 'None'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_target' from command line to 'None'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[5.836s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.836s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/ros2/src/qcar2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'cmake_args' from command line to 'None'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'cmake_target' from command line to 'None'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'cmake_clean_first' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'cmake_force_configure' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'ament_cmake_args' from command line to 'None'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'qcar2_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.854s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_controller', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/ros2/src/qcar2_controller', 'symlink_install': False, 'test_result_base': None}
+[5.873s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'cmake_args' from command line to 'None'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'cmake_target' from command line to 'None'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[5.874s] Level 5:colcon.colcon_core.verb:set package 'qcar2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.874s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_navigation', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/ros2/src/qcar2_navigation', 'symlink_install': False, 'test_result_base': None}
+[5.899s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_args' from command line to 'None'
+[5.899s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_target' from command line to 'None'
+[5.899s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.900s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[5.900s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[5.900s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[5.900s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[5.900s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[5.900s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.900s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_nodes', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes', 'symlink_install': False, 'test_result_base': None}
+[5.925s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.946s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.946s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_interfaces' with build type 'ament_cmake'
+[5.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_interfaces'
+[5.966s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[6.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[7.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_interfaces
+[7.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_interfaces)
+[7.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_interfaces
+[7.194s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces' for CMake module files
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces' for CMake config files
+[7.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'cmake_prefix_path')
+[7.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.ps1'
+[7.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.dsv'
+[7.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.sh'
+[7.220s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib'
+[7.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'ld_library_path_lib')
+[7.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.ps1'
+[7.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.dsv'
+[7.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.sh'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/bin'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/pkgconfig/qcar2_interfaces.pc'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages'
+[7.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'pythonpath')
+[7.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.ps1'
+[7.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.dsv'
+[7.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.sh'
+[7.263s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/bin'
+[7.281s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.ps1'
+[7.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.dsv'
+[7.283s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.sh'
+[7.284s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.bash'
+[7.284s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.zsh'
+[7.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/colcon-core/packages/qcar2_interfaces)
+[7.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_interfaces)
+[7.505s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces' for CMake module files
+[7.506s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces' for CMake config files
+[7.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'cmake_prefix_path')
+[7.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.ps1'
+[7.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.dsv'
+[7.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/cmake_prefix_path.sh'
+[7.560s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib'
+[7.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'ld_library_path_lib')
+[7.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.ps1'
+[7.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.dsv'
+[7.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/ld_library_path_lib.sh'
+[7.579s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/bin'
+[7.579s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/pkgconfig/qcar2_interfaces.pc'
+[7.579s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages'
+[7.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_interfaces', 'pythonpath')
+[7.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.ps1'
+[7.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.dsv'
+[7.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/hook/pythonpath.sh'
+[7.599s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_interfaces/bin'
+[7.616s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.ps1'
+[7.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.dsv'
+[7.618s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.sh'
+[7.618s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.bash'
+[7.619s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.zsh'
+[7.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/colcon-core/packages/qcar2_interfaces)
+[7.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_controller' with build type 'ament_cmake'
+[7.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_controller'
+[7.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.704s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_navigation' with build type 'ament_cmake'
+[7.705s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_navigation'
+[7.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes' with build type 'ament_cmake'
+[7.791s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes'
+[7.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_controller': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_controller -- -j16 -l16
+[7.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_navigation': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_navigation -- -j16 -l16
+[7.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_nodes': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_nodes -- -j16 -l16
+[7.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_nodes' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_nodes -- -j16 -l16
+[8.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_nodes': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_nodes
+[8.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_nodes)
+[8.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_nodes' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_nodes
+[8.186s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes' for CMake module files
+[8.187s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes' for CMake config files
+[8.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_nodes', 'cmake_prefix_path')
+[8.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.ps1'
+[8.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.dsv'
+[8.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.sh'
+[8.212s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/lib'
+[8.212s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/bin'
+[8.212s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/lib/pkgconfig/qcar2_nodes.pc'
+[8.213s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/lib/python3.8/site-packages'
+[8.214s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/bin'
+[8.238s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.ps1'
+[8.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.dsv'
+[8.239s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.sh'
+[8.239s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.bash'
+[8.240s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.zsh'
+[8.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_nodes/share/colcon-core/packages/qcar2_nodes)
+[8.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_nodes)
+[8.431s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes' for CMake module files
+[8.432s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes' for CMake config files
+[8.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_nodes', 'cmake_prefix_path')
+[8.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.ps1'
+[8.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.dsv'
+[8.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/hook/cmake_prefix_path.sh'
+[8.456s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/lib'
+[8.456s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/bin'
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/lib/pkgconfig/qcar2_nodes.pc'
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/lib/python3.8/site-packages'
+[8.458s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_nodes/bin'
+[8.484s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.ps1'
+[8.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.dsv'
+[8.485s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.sh'
+[8.486s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.bash'
+[8.487s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.zsh'
+[8.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_nodes/share/colcon-core/packages/qcar2_nodes)
+[8.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_navigation' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_navigation -- -j16 -l16
+[8.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_controller' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_controller -- -j16 -l16
+[8.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_navigation': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_navigation
+[8.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_controller': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_controller
+[8.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_navigation)
+[8.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_navigation' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_navigation
+[8.976s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation' for CMake module files
+[8.977s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation' for CMake config files
+[8.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_navigation', 'cmake_prefix_path')
+[8.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/cmake_prefix_path.ps1'
+[9.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/cmake_prefix_path.dsv'
+[9.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/cmake_prefix_path.sh'
+[9.001s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/lib'
+[9.001s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/bin'
+[9.002s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/pkgconfig/qcar2_navigation.pc'
+[9.002s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages'
+[9.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_navigation', 'pythonpath')
+[9.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/pythonpath.ps1'
+[9.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/pythonpath.dsv'
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/pythonpath.sh'
+[9.028s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/bin'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.ps1'
+[9.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.dsv'
+[9.053s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.sh'
+[9.053s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.bash'
+[9.054s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.zsh'
+[9.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_navigation/share/colcon-core/packages/qcar2_navigation)
+[9.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_controller)
+[9.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_controller' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_navigation:/workspaces/isaac_ros-dev/install/qcar2_controller:/opt/ros/humble PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/libraries/python /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_controller
+[9.085s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller' for CMake module files
+[9.086s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller' for CMake config files
+[9.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_controller', 'cmake_prefix_path')
+[9.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/cmake_prefix_path.ps1'
+[9.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/cmake_prefix_path.dsv'
+[9.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/cmake_prefix_path.sh'
+[9.111s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/lib'
+[9.111s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/bin'
+[9.111s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/pkgconfig/qcar2_controller.pc'
+[9.112s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages'
+[9.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_controller', 'pythonpath')
+[9.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/pythonpath.ps1'
+[9.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/pythonpath.dsv'
+[9.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/pythonpath.sh'
+[9.134s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/bin'
+[9.154s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.ps1'
+[9.155s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.dsv'
+[9.156s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.sh'
+[9.156s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.bash'
+[9.157s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.zsh'
+[9.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_controller/share/colcon-core/packages/qcar2_controller)
+[9.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_navigation)
+[9.217s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation' for CMake module files
+[9.218s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation' for CMake config files
+[9.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_navigation', 'cmake_prefix_path')
+[9.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/cmake_prefix_path.ps1'
+[9.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/cmake_prefix_path.dsv'
+[9.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/cmake_prefix_path.sh'
+[9.243s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/lib'
+[9.243s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/bin'
+[9.243s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/pkgconfig/qcar2_navigation.pc'
+[9.244s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/lib/python3.8/site-packages'
+[9.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_navigation', 'pythonpath')
+[9.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/pythonpath.ps1'
+[9.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/pythonpath.dsv'
+[9.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/hook/pythonpath.sh'
+[9.267s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_navigation/bin'
+[9.288s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.ps1'
+[9.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.dsv'
+[9.290s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.sh'
+[9.290s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.bash'
+[9.291s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_navigation/share/qcar2_navigation/package.zsh'
+[9.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_navigation/share/colcon-core/packages/qcar2_navigation)
+[9.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qcar2_controller)
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller' for CMake module files
+[9.339s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller' for CMake config files
+[9.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_controller', 'cmake_prefix_path')
+[9.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/cmake_prefix_path.ps1'
+[9.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/cmake_prefix_path.dsv'
+[9.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/cmake_prefix_path.sh'
+[9.364s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/lib'
+[9.365s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/bin'
+[9.365s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/pkgconfig/qcar2_controller.pc'
+[9.365s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages'
+[9.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('qcar2_controller', 'pythonpath')
+[9.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/pythonpath.ps1'
+[9.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/pythonpath.dsv'
+[9.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/hook/pythonpath.sh'
+[9.391s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/qcar2_controller/bin'
+[9.410s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.ps1'
+[9.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.dsv'
+[9.412s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.sh'
+[9.412s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.bash'
+[9.413s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.zsh'
+[9.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/qcar2_controller/share/colcon-core/packages/qcar2_controller)
+[9.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.415s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.449s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.453s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[9.454s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.ps1'
+[9.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/install/_local_setup_util_ps1.py'
+[9.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.ps1'
+[9.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.sh'
+[9.503s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/install/_local_setup_util_sh.py'
+[9.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.sh'
+[9.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.bash'
+[9.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.bash'
+[9.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.zsh'
+[9.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.zsh'

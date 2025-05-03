@@ -1,0 +1,46 @@
+[0.193s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_controller': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_controller -- -j16 -l16
+[0.232s] Built target ament_cmake_python_copy_qcar2_controller
+[0.744s] running egg_info
+[0.764s] writing qcar2_controller.egg-info/PKG-INFO
+[0.764s] writing dependency_links to qcar2_controller.egg-info/dependency_links.txt
+[0.765s] writing top-level names to qcar2_controller.egg-info/top_level.txt
+[0.821s] reading manifest file 'qcar2_controller.egg-info/SOURCES.txt'
+[0.822s] writing manifest file 'qcar2_controller.egg-info/SOURCES.txt'
+[0.898s] Built target ament_cmake_python_build_qcar2_controller_egg
+[0.905s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_controller -- -j16 -l16
+[0.951s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_controller': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_controller
+[0.956s] -- Install configuration: ""
+[0.956s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/pythonpath.sh
+[0.956s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/pythonpath.dsv
+[0.956s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info
+[0.956s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/PKG-INFO
+[0.956s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/SOURCES.txt
+[0.957s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/dependency_links.txt
+[0.957s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller-0.0.0-py3.8.egg-info/top_level.txt
+[0.957s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller
+[0.957s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/xbox_command.py
+[0.957s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/__init__.py
+[0.957s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller/motor_mux.py
+[0.995s] Listing '/workspaces/isaac_ros-dev/install/qcar2_controller/lib/python3.8/site-packages/qcar2_controller'...
+[1.000s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/include/include
+[1.000s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/include/include/qcar2_controller
+[1.000s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/launch
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/config
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/qcar2_controller/xbox_command.py
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/lib/qcar2_controller/motor_mux.py
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/ament_index/resource_index/package_run_dependencies/qcar2_controller
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/ament_index/resource_index/parent_prefix_path/qcar2_controller
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/ament_prefix_path.sh
+[1.001s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/ament_prefix_path.dsv
+[1.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/path.sh
+[1.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/environment/path.dsv
+[1.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.bash
+[1.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.sh
+[1.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.zsh
+[1.002s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/local_setup.dsv
+[1.003s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.dsv
+[1.003s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/ament_index/resource_index/packages/qcar2_controller
+[1.004s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/cmake/qcar2_controllerConfig.cmake
+[1.004s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/cmake/qcar2_controllerConfig-version.cmake
+[1.005s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_controller/share/qcar2_controller/package.xml
+[1.005s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_controller

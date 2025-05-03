@@ -1,0 +1,3 @@
+source;share/qcar2_navigation/environment/ament_prefix_path.sh
+source;share/qcar2_navigation/environment/path.sh
+source;share/qcar2_navigation/environment/pythonpath.sh

@@ -1,0 +1,63 @@
+[0.065s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_nodes': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_nodes -- -j16 -l16
+[0.109s] [ 11%] Built target qcar2_hardware
+[0.110s] [ 16%] [32mBuilding CXX object CMakeFiles/fixed_lidar_frame_virtual.dir/src/fixed_lidar_frame_virtual.cpp.o[0m
+[0.110s] [ 27%] Built target fer_command
+[0.110s] [ 38%] Built target lidar
+[0.111s] [ 55%] Built target nav2_qcar2_converter
+[0.111s] [ 61%] Built target command
+[0.111s] [ 72%] Built target fixed_lidar_frame
+[0.113s] [ 83%] Built target rgbd
+[0.114s] [ 94%] Built target csi
+[5.048s] [100%] [32m[1mLinking CXX executable fixed_lidar_frame_virtual[0m
+[5.303s] [100%] Built target fixed_lidar_frame_virtual
+[5.310s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_nodes' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_nodes -- -j16 -l16
+[5.397s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_nodes': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_nodes
+[5.401s] -- Install configuration: ""
+[5.401s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/qcar2_hardware
+[5.402s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/rgbd
+[5.402s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/lidar
+[5.402s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/csi
+[5.403s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/fer_command
+[5.403s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/command
+[5.404s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/nav2_qcar2_converter
+[5.404s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/fixed_lidar_frame
+[5.404s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/fixed_lidar_frame_virtual
+[5.406s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_nodes/lib/qcar2_nodes/fixed_lidar_frame_virtual" to ""
+[5.406s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch
+[5.406s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_slam_and_nav_bringup_launch.py
+[5.406s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_virtual_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_manual_cartographer_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_cartographer_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_cartographer_virtual_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_navigation_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_slam_and_nav_bringup_virtual_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_manual_drive_launch.py
+[5.407s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/localization_launch.py
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//launch/qcar2_launch.py
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//rt_models
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//rt_models/dummy_model
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//config
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//config/qcar2_nav_virtual.yaml
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//config/qcar2_slam_and_nav.yaml
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//config/qcar2_slam_and_nav_virtual.yaml
+[5.408s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//config/qcar2_2d.lua
+[5.409s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//maps
+[5.409s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//maps/sdcc
+[5.410s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//maps/sdcc/sdcc.pgm
+[5.410s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes//maps/sdcc/sdcc.yaml
+[5.410s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/ament_index/resource_index/package_run_dependencies/qcar2_nodes
+[5.411s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/ament_index/resource_index/parent_prefix_path/qcar2_nodes
+[5.411s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/environment/ament_prefix_path.sh
+[5.411s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/environment/ament_prefix_path.dsv
+[5.411s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/environment/path.sh
+[5.411s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/environment/path.dsv
+[5.412s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/local_setup.bash
+[5.412s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/local_setup.sh
+[5.412s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/local_setup.zsh
+[5.412s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/local_setup.dsv
+[5.412s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.dsv
+[5.413s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/ament_index/resource_index/packages/qcar2_nodes
+[5.413s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/cmake/qcar2_nodesConfig.cmake
+[5.413s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/cmake/qcar2_nodesConfig-version.cmake
+[5.413s] -- Up-to-date: /workspaces/isaac_ros-dev/install/qcar2_nodes/share/qcar2_nodes/package.xml
+[5.414s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_nodes' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_nodes
