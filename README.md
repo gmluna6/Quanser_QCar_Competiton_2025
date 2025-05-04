@@ -35,10 +35,11 @@ This node sends three sequential waypoint paths to the Nav2 stack:
 - Drive from Pick-Up to Drop-Off
 - Return from Drop-Off to Taxi Hub
 
-Video Result Link:
-https://youtu.be/cDVJIitHL1E 
 The LED color will automatically update after each phase:
 - Red before pick-up
 - Green after pick-up
 - Blue after drop-off
 - Red again upon return to the taxi area
+
+Video Result Link:
+https://youtu.be/cDVJIitHL1E 
